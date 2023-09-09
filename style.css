@@ -37,7 +37,7 @@ main {
 }
 
 .player {
-  flex: 50%;
+  flex: auto;
   padding: 9rem;
   display: flex;
   flex-direction: column;
@@ -130,13 +130,13 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  bottom: 80%;
 }
 .btn--roll {
-  top: 39.3rem;
+  bottom: 40%;
 }
 .btn--hold {
-  top: 46.1rem;
+  bottom: 20%;
 }
 
 .btn:active {
