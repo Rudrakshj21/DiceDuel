@@ -1,0 +1,32 @@
+@media (max-width: 800px) {
+  main {
+    width: 90%;
+    height: 60rem;
+  }
+  .current-label,
+  .current-score {
+    font-size: small;
+  }
+
+  .player {
+    flex: 1;
+  }
+  .name {
+    font-size: medium;
+  }
+  .score {
+    font-size: 6rem;
+  }
+
+  .dice {
+    width: 10%;
+    height: auto;
+  }
+
+  .btn {
+    display: flex;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+  }
+}
