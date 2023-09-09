@@ -1,7 +1,7 @@
-@media (max-width: 480px) {
+@media (max-width: 780px) {
   main {
-    width: 90%;
-    height: 60rem;
+    width: auto;
+    height: auto;
   }
   .current-label,
   .current-score {
@@ -21,12 +21,5 @@
   .dice {
     width: 10%;
     height: auto;
-  }
-
-  .btn {
-    display: flex;
-    font-size: 1rem;
-    padding: 1rem 1rem;
-    margin: 1rem 0;
   }
 }
